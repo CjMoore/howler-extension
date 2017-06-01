@@ -1,7 +1,7 @@
 //creates the right click option
 chrome.runtime.onInstalled.addListener(function() {
   var context = "selection";
-  var title = "The Howler - Analyze Sentiment!";
+  var title = "The Howler: Check Yourself Before You Wreck Yourself";
   var id = chrome.contextMenus.create({"title": title, "contexts":[context],
                                          "id": "context" + context});
 });
