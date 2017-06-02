@@ -1,7 +1,4 @@
-# howler-extension
-
-
-##In Development
+# The Howler Chrome Extension
 
 This Chrome extension allows the user to select text, right click it, and have that text analyzed by the Watson Tone Analyzer.
 
@@ -11,8 +8,6 @@ This Chrome extension allows the user to select text, right click it, and have t
 4. This will open a new page on The Howler where your text will be analyzed. 
 
 In order to run this extension: 
-
-First, make sure that you have The Howler running on localhost. 
 
 1. Clone the repo
 2. Go to Chrome: Settings => Extensions => Check "Developer Mode"
