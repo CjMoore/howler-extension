@@ -12,6 +12,6 @@ chrome.contextMenus.onClicked.addListener(onClickHandler);
 // The onClicked callback function.
 function onClickHandler(info, tab) {
   var sText = info.selectionText;
-  var url = 'http://localhost:3000/extensions?text=' + encodeURIComponent(sText);
+  var url = 'https://the-howler.herokuapp.com/extensions?text=' + encodeURIComponent(sText);
   window.open(url, '_blank');
 };
